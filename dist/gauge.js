@@ -82,7 +82,7 @@
   };
 
   formatNumber = function(num) {
-    return addCommas(num.toFixed(0));
+    return addCommas(num.toFixed(2));
   };
 
   updateObjectValues = function(obj1, obj2) {
