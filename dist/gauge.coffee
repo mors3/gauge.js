@@ -61,7 +61,7 @@ secondsToString = (sec) ->
 	return hr + min + ':' + sec
 
 formatNumber = (num) ->
-		return addCommas(num.toFixed(0))
+		return addCommas(num.toFixed(2))
 
 updateObjectValues = (obj1, obj2) ->
 	for own key, val of obj2
